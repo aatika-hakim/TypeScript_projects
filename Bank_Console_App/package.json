@@ -1,0 +1,26 @@
+{
+  "name": "atika-bank-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "at-bank": "index.js"
+  },
+  "keywords": [
+    "bank-app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "atika-bank-app": "^1.0.0",
+    "inquirer": "^9.2.11"
+  }
+}
